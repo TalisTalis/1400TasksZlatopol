@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2._08Task
+namespace _2._07Task
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int r = 5; // радиус окружности
+            int a = 3; // Длина ребра куба
 
-            double l = 2 * Math.PI * r; // длина окружности 2пR
+            double volumeCub = Math.Pow(a, 3); // Объём куба V = a^3
 
-            double s = Math.PI * Math.Pow(r, 2); // площадь круга пR^2
+            double squareSurfaceCub = 4 * Math.Pow(a, 2); // Площадь боковой поверхности куба S = 4 * a^2            
+            
+            Console.WriteLine("Объём куба при длине ребра " + a + " равен " + volumeCub);
 
-            Console.WriteLine("При радиусе окружности " + r + " длина окружности равна " + l);
-
-            Console.WriteLine("При радиусе окружности " + r + " площадь окрудности равна " + s);
+            Console.WriteLine("Площадь боковой поверхности куба при длине ребра " + a + " равна " + squareSurfaceCub);
         }
     }
 }

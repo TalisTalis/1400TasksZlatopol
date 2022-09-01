@@ -4,21 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2._07Task
+namespace _2._06Task
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int a = 3; // Длина ребра куба
+            // Считая, что Земля - идеальная сфера с радиусом R = 6350 км, определить расстояние до линии горизонта
+            // от точки с заданной высотой над Землей
 
-            double volumeCub = Math.Pow(a, 3); // Объём куба V = a^3
 
-            double squareSurfaceCub = 4 * Math.Pow(a, 2); // Площадь боковой поверхности куба S = 4 * a^2            
-            
-            Console.WriteLine("Объём куба при длине ребра " + a + " равен " + volumeCub);
 
-            Console.WriteLine("Площадь боковой поверхности куба при длине ребра " + a + " равна " + squareSurfaceCub);
         }
     }
 }
