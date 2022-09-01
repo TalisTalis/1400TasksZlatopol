@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: 2.19Task, Configuration: Debug Any CPU ------
+1>  2.19Task -> C:\Users\talisman\source\repos\1400TasksZlatopol\2.19Task\bin\Debug\2.19Task.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
