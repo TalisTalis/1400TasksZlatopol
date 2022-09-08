@@ -13,11 +13,11 @@ namespace _3._05Task
             // Дан прямоугольник с размерами 543х130 мм. Сколько квадратов со стороной 130 мм
             // можно отрезать от него.
 
-            int squareQuad = 543 * 130;
+            int quad = 543;
 
-            int squareBox = (int)Math.Pow(130, 2);
+            int box = 130;
 
-            int numberCuts = squareQuad / squareBox;
+            int numberCuts = quad / box;
 
             Console.WriteLine($"От прямоугольника 543х130 мм можно отрезать {numberCuts} квадрата со стороной 130 мм");
         }
