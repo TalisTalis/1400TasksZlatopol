@@ -23,11 +23,20 @@ namespace _4._42Task
 
             if (x > 2 && y > 2)
             {
-                Console.WriteLine($"Точка с координатами x = {x}, y = {y} входит в область I.");
+                Console.WriteLine($"a) Точка с координатами x = {x}, y = {y} входит в область I.");
             }
             else
             {
-                Console.WriteLine("Точка не входит в область I.");
+                Console.WriteLine("a) Точка не входит в область I.");
+            }
+
+            if (x < -2 && y < -4)
+            {
+                Console.WriteLine($"b) Точка с координатами x = {x}, y = {y} входит в область I.");
+            }
+            else
+            {
+                Console.WriteLine("b) Точка не входит в область I.");
             }
         }
     }
