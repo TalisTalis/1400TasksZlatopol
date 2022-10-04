@@ -83,8 +83,7 @@ namespace _4._76Task
 
             Console.WriteLine();
             // г) На поле (a, b) расположен ферзь. Определить, угрожает ли он полю (c, d).
-            if (a == c || b == d ||
-                Math.Abs(a - c) == Math.Abs(b - d))
+            if ((Math.Abs(a - c) <= 1 && Math.Abs(b - d) <= 1) || Math.Abs(a - c) == Math.Abs(b - d))
             {
                 Console.WriteLine($"Ферзь на {a}, {b} угрожает полю {c}, {d}.");
             }
